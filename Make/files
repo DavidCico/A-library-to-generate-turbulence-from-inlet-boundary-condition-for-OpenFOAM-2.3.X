@@ -1,0 +1,7 @@
+genericInflowGeneratorFvPatchVectorField.C
+spots/homogeneousTurbulence/homogeneousTurbulence.C
+spots/hat/hat.C
+inflowGeneratorFvPatchVectorFieldFwd.C
+
+LIB = $(FOAM_USER_LIBBIN)/libInflowTurbulence
+
