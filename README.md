@@ -1,5 +1,9 @@
-# A-library-to-generate-turbulence-from-inlet-boundary-condition-for-OpenFOAM-2.3.0
-This repository contains a turbulence generator for inlet boundary condition in OpenFOAM 2.3.0.
+# A-library-to-generate-turbulence-from-inlet-boundary-condition-for-OpenFOAM-2.3.X
+This repository contains a turbulence generator for inlet boundary condition in OpenFOAM 2.3.X.
+
+## Prerequisites
+
+<p align="justify">This library is developed for OpenFOAM 2.3.X, and requires the latter version of the Open Source CFD Toolbox. For more information on how to install this version, the reader is referred to <a href="https://sites.google.com/site/foamguides/installation/installing-openfoam-2-3-x">this web page</a>.</p>
 
 Compile using:
     wmake libso
