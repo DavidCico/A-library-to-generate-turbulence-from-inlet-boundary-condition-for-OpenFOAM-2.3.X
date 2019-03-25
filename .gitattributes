@@ -1,2 +1,2 @@
-#* linguist-vendored
-#*.* linguist-language=C++
+* linguist-vendored
+*.C++ linguist-vendored=false
