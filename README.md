@@ -24,7 +24,7 @@ And specify for U at inlet with settings fitting your case
       overlap         0.5;    // how much the vortons can overlap each other
         L               0.01;    // integral length scale
         eta             1e-04;  // Kolmogorov length
-        Cl              6.783;  // Constant used for E(k) 6.783 ni paper
+        Cl              6.783;  // Constant used for E(k) 6.783 in paper
         Ceta            0.4;  // Constant used for E(k) 0.4 in paper
         type            inflowGenerator<homogeneousTurbulence>;
         fluctuationScale (1 1 1);
