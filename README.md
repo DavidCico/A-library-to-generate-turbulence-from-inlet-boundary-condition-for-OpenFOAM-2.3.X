@@ -35,7 +35,7 @@ And specify for U at inlet with settings fitting your case
         Ceta            0.4;  // Constant used for E(k) 0.4 in paper
         type            inflowGenerator<homogeneousTurbulence>;
         fluctuationScale (1 1 1); // Fluctuation scale in each direction
-        referenceField  uniform (10 0 0); // reference value for inlet
+        referenceField  uniform (10 0 0); // Reference value for inlet
         R               uniform (1 0 0 1 0 1); // Reynolds stress tensor
         value           uniform (10 0 0); 
     }
