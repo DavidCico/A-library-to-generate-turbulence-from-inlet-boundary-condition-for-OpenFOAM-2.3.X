@@ -1,5 +1,7 @@
 # A-library-to-generate-turbulence-from-inlet-boundary-condition-for-OpenFOAM-2.3.X
-This repository contains a turbulence generator for inlet boundary condition in OpenFOAM 2.3.X.
+This repository contains a turbulence generator for inlet boundary condition in OpenFOAM 2.3.X based on two papers:
+
+<p align="justify">N Kornev, H Kr&#246ger, J Turnow, and E Hassel. Synthesis of artificial turbulent fields with prescribed second-order statistics using the random-spot method. Proceedings in Applied Mathematics and Mechanics, 7(1):2100047{2100048, 2007.</p>
 
 ## Prerequisites
 
