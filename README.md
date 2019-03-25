@@ -28,15 +28,15 @@ And specify for U at inlet with settings fitting your case
 
     inlet
     {
-      overlap         0.5;    // how much the vortons can overlap each other
-        L               0.01;    // integral length scale
+      overlap         0.5;    // How much the vortons can overlap each other
+        L               0.01;    // Integral length scale
         eta             1e-04;  // Kolmogorov length
         Cl              6.783;  // Constant used for E(k) 6.783 in paper
         Ceta            0.4;  // Constant used for E(k) 0.4 in paper
         type            inflowGenerator<homogeneousTurbulence>;
-        fluctuationScale (1 1 1);
-        referenceField  uniform (10 0 0);
-        R               uniform (1 0 0 1 0 1);
-        value           uniform (10 0 0);
+        fluctuationScale (1 1 1); // Fluctuation scale in each direction
+        referenceField  uniform (10 0 0); // reference value for inlet
+        R               uniform (1 0 0 1 0 1); // Reynolds stress tensor
+        value           uniform (10 0 0); 
     }
 
