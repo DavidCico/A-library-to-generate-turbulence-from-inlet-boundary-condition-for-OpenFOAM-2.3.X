@@ -3,12 +3,15 @@ This repository contains a turbulence generator for inlet boundary condition in 
 
 ## Prerequisites
 
-<p align="justify">This library is developed for OpenFOAM 2.3.X, and requires the latter version of the Open Source CFD Toolbox. For more information on how to install this version, the reader is referred to <a href="https://sites.google.com/site/foamguides/installation/installing-openfoam-2-3-x">this web page</a>.</p>
+<p align="justify">This library is developed for <strong>OpenFOAM 2.3.X</strong>, and requires the latter version of the Open Source CFD Toolbox. For more information on how to install this version, the reader is referred to <a href="https://sites.google.com/site/foamguides/installation/installing-openfoam-2-3-x">this web page</a>.</p>
 
-Compile using:
+## Instructions on program
+
+Compile the library using:
+
     wmake libso
 
-This will create the library libInflowTurbulence.so in your $FOAM_USER_LIBBIN
+This will create the library <em>libInflowTurbulence.so</em> in your $FOAM_USER_LIBBIN folder.
 
 Add this to the case controlDict:
 
